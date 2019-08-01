@@ -21,3 +21,4 @@
 * Скачать в созданную папку Bash скрипт для запуска установщика -> [start_web.sh](https://github.com/glotovsa/mysite_test/blob/master/start_web.sh)
 
 ***`Важно! Оба файла должны располагаться в одной директории!`***
+***
