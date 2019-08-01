@@ -21,4 +21,9 @@
 * Скачать в созданную папку Bash скрипт для запуска установщика -> [start_web.sh](https://github.com/glotovsa/mysite_test/blob/master/start_web.sh)
 
 ***`Важно! Оба файла должны располагаться в одной директории!`***
+* Запускаем скрипт `user@server_name_user:~/pr3r1$ ./start_web.sh`
 ***
+
+
+В идеале:
+в адресной строке браузера вводим `http://name_server_or_ip:8080/` -> результат `Hello World from Django!`
