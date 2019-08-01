@@ -1,0 +1,15 @@
+#!/bin/bash
+
+sudo apt update
+sudo apt install apt-transport-https
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo apt update
+sudo apt install docker-ce
+sudo docker ps -a
+
+sudo tar -xvf archive.tar.gz
+
+sudo docker-compose build
+sudo docker-compose up
+
